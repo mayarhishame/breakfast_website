@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    margin-top: 0px;
+}
+.navbar .navbar-nav .nav-link{
+    color: #1D4C8B;
+    text-align: center;
+}
+.navbar{
+    margin-right: 25%;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: black;
+}
+.home{
+    background-color: #F5D1C9;
+}
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 600%;
+    color: #1D4C8B;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.title1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 300%;
+    color: #1D4C8B;
+    width: 60%;
+    text-align: center;
+    margin-top: 0%;
+    font-style: oblique;
+}
+.home_photo{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -200px;
+
+}
+.menu{
+    margin-top: 250px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    border-color: #1D4C8B;
+    border-style:solid;
+}
+.header_menu{
+    text-align: center;
+    font-size: 300%;
+    font-style:italic;
+    color: #1D4C8B;
+}
+.menu1{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    border-color: #1D4C8B;
+    border-style:solid;
+    background-color: #F5D1C9;
+    padding: 1%;
+    padding-top: 3%;
+}
+.menu_head{
+    text-align: center;
+    font-size: 250%;
+    font-style:italic;
+    color: #1D4C8B;
+}
+.header_menu1{
+    text-align: center;
+    font-size: 150%;
+    font-style:italic;
+    color: #1D4C8B;
+}
+.home_photo1{
+    width: 100%;
+    height: 100%;
+}
+.menu2{
+    color: #1D4C8B;
+}
+.line{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1D4C8B;
+}
+.row{
+    color: #1D4C8B;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.main-btn{
+    background-color: #F5D1C9;
+    color: #1D4C8B;
+    padding: 0.5rem 1rem;
+}
+.combo{
+    background-color:#A8BACA ;
+    color: #1D4C8B;
+}
+.header_combo{
+    font-style: italic;
+    font-size: 450%;
+}
+.combo2{
+    background-color: #F5D1C9;
+    border-radius: 2px;
+    border-color: #1D4C8B;
+    border-style:solid;
+    padding: 1%;
+    padding-top: 3%;
+}
+.main-btn1{
+    background-color: #F5D1C9;
+    color: #1D4C8B;
+    border-color: #1D4C8B;
+    border-radius: 4px;
+}
+.combo_offer{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width : 754px) {
+    .title{
+        font-size: 350%;
+        width: 80%;
+    }
+   
+    .menu_head{
+        font-size: 150%;
+    }
+    .home_photo{
+        position: relative;
+        bottom: -100px;
+    }
+}
+@media (max-width : 500px) {
+    .title{
+        font-size: 350%;
+        width: 90%;
+    }
+   
+    .menu_head{
+        font-size: 150%;
+    }
+    .home_photo{
+        position: relative;
+        bottom: -50px;
+    }
+}
